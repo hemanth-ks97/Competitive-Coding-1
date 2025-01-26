@@ -18,7 +18,4 @@ def find_missing_number(nums):
             # The missing number lies to the right of mid
             l = mid + 1
     
-    if r == 0:
-        return nums[r] - 1
-    else:
-        return nums[r] + 1
+    return nums[r] + 1
